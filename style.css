@@ -1,0 +1,141 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: blue;
+    overflow: scroll;
+    cursor: default;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    margin: 30px;
+    
+}
+
+header .logo img {
+    height: 50px;
+    border-radius: 5px;
+    cursor: cell;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: contents;
+}
+
+nav ul li button{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: blue;
+    border-radius: 50px;
+    
+    
+}
+nav ul li button:hover{
+    background-color: darkblue ;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+ 
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 100%;
+    
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Estilo do contêiner para o vídeo */
+.video-container {
+    position: fixed; /* Fixa o vídeo na tela */
+    top: 10px; /* Distância do topo */
+    right: 10px; /* Distância da direita */
+    width: 200px; /* Largura do vídeo */
+    height: 112px; /* Altura do vídeo, proporcional ao tamanho */
+    z-index: 1000; /* Garante que o vídeo ficará sobre outros elementos */
+  }
+  
+  /* Ajustes para o iframe dentro do contêiner */
+  .video-container iframe {
+    width: 100%; /* O iframe ocupa 100% da largura do contêiner */
+    height: 100%; /* O iframe ocupa 100% da altura do contêiner */
+  }
+
+
+
+footer {
+    display: contents;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+
+  
+
+footer a {
+    color: #000000;
+    text-decoration: double;
+}
+
+footer a:hover {
+    text-decoration: underline;
+   
+
+}
